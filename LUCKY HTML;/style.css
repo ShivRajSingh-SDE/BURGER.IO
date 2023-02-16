@@ -19,12 +19,16 @@ nav {
 nav img{
     height: 110px;
 }
+#chilly img{
+    height: 60px;
+    transform: rotateY(180deg);
+}
 nav img:hover{
     height: 130px;
 }
 nav ul li{
     list-style: none;
-    margin-left: 830px;
+    margin-left: 630px;
 }
 nav ul li h3:hover{
     letter-spacing: 3px;
@@ -43,7 +47,7 @@ nav ul li a:hover{
     letter-spacing: 3px;
 }
 body{
-    background-color: rgb(255, 153, 0);
+    background-image: linear-gradient(rgb(255, 153, 0),rgb(220, 139, 139));
 }
 #case1{
     height: 500px;
@@ -56,6 +60,7 @@ body{
     float: right;
     position: relative;
     height: 500px;
+    
     animation: kill 1s linear infinite;
 }
 @keyframes kill {
@@ -85,36 +90,32 @@ body{
     color: rgb(92, 38, 0);
 }
  
-#case2{
-    /* height: 500px; */
-    /* background-color: aliceblue; */
-    display: inline;
+.case2{
+    display: flex;
+    justify-content: center;
     padding: 13px;
     margin: 13px;
     height: 600px;
     
 }
 
-#case2 li{
-    list-style: none;
-    display: inline;
-    margin-left: 200px;
-    
-}
-#case2 img{
+
+.case2 img{
     height: 300px;
     margin-left: 90px;
+    
+    
 }
-#case2 img:hover{
+.case2 img:hover{
     height: 340px;
     background-color: rgba(240, 248, 255, 0.514);
     border-radius: 50px;
 }
-#case2 h1{
+.case2 h1{
     justify-content: center;
     display: flex;
 }
-#case2 h3{
+.case2 h3{
     justify-content: center;
     display: flex;
     color: aliceblue;
@@ -161,7 +162,7 @@ body{
 
 .mini img:hover{
     height: 102%;
-    background-color: rgba(203, 112, 0, 0.42);
+    background-color: rgba(255, 255, 255, 0.568);
     border-radius: 60px;
 }
 .mini:hover{
